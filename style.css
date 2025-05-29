@@ -10,7 +10,7 @@ html {
 
 html {
   font-size: 10px;
-  background: #ffc600;
+  background: #ff1e00;
 }
 
 .photobooth {
@@ -20,7 +20,6 @@ html {
   border-radius: 2px;
 }
 
-/*clearfix*/
 .photobooth:after {
   content: "";
   display: block;
@@ -34,9 +33,10 @@ html {
 
 .player {
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 40px;
+  right: 40px;
   width: 200px;
+  border: 3px solid #ff1e00;
 }
 
 /*
